@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		81A0E6751C2BCF4F00E7884A /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A0E6741C2BCF4F00E7884A /* Image.xcassets */; };
+		81A0E6771C2C084500E7884A /* InterestLoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A0E6761C2C084500E7884A /* InterestLoc.swift */; };
 		81E22B641C2BA63600536935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E22B631C2BA63600536935 /* AppDelegate.swift */; };
 		81E22B661C2BA63600536935 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E22B651C2BA63600536935 /* ViewController.swift */; };
 		81E22B691C2BA63600536935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E22B671C2BA63600536935 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		81A0E6741C2BCF4F00E7884A /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		81A0E6761C2C084500E7884A /* InterestLoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestLoc.swift; sourceTree = "<group>"; };
 		81E22B601C2BA63600536935 /* iOSMapSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMapSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E22B631C2BA63600536935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81E22B651C2BA63600536935 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				81E22B631C2BA63600536935 /* AppDelegate.swift */,
 				81E22B651C2BA63600536935 /* ViewController.swift */,
+				81A0E6761C2C084500E7884A /* InterestLoc.swift */,
 				81E22B671C2BA63600536935 /* Main.storyboard */,
 				81E22B6C1C2BA63600536935 /* LaunchScreen.storyboard */,
 				81E22B6F1C2BA63600536935 /* Info.plist */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81E22B661C2BA63600536935 /* ViewController.swift in Sources */,
+				81A0E6771C2C084500E7884A /* InterestLoc.swift in Sources */,
 				81E22B641C2BA63600536935 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
