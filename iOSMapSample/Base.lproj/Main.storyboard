@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOSMapSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="pWJ-O3-bVZ">
+                                <rect key="frame" x="0.0" y="20" width="600" height="530"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqq-as-o1A">
+                                <rect key="frame" x="20" y="550" width="560" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="sZx-fp-Xj8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pWJ-O3-bVZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2nZ-lP-Tta"/>
+                            <constraint firstItem="gqq-as-o1A" firstAttribute="top" secondItem="pWJ-O3-bVZ" secondAttribute="bottom" id="5B4-lN-q8x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gqq-as-o1A" secondAttribute="trailing" id="5Ce-He-HgJ"/>
+                            <constraint firstItem="pWJ-O3-bVZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="5dr-Zj-KTn"/>
+                            <constraint firstAttribute="trailing" secondItem="pWJ-O3-bVZ" secondAttribute="trailing" id="bpt-kG-odp"/>
+                            <constraint firstItem="gqq-as-o1A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="nxU-YE-7v9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gqq-as-o1A" secondAttribute="bottom" id="qey-ro-l5a"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelView" destination="gqq-as-o1A" id="mwu-AY-tTS"/>
+                        <outlet property="mapView" destination="pWJ-O3-bVZ" id="DOc-Bm-Vez"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="227" y="327"/>
+        </scene>
+    </scenes>
+</document>
